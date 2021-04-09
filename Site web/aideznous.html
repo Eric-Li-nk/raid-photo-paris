@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Aidez-nous - Raid Photo Paris-Cap Nord 2021</title>
+  <meta charset="utf-8" />
+  <link href="aideznous.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+  <header>
+  <div class="fixe">	<!-- background image // https://notepad.pw/parisnordcap 123456-->
+    <a class="logo" href="accueil.html"><img src="focus_logo_smallv2.png" alt="logo_focus"/></a>
+    <a class="barre" href='accueil.html'>Accueil</a>
+    <div id="menu_menu">
+      <ul>
+        <li>
+          <a class="barre" id="raid" href='raid.html'>Live raid</a>
+          <ul id="padding_menu">
+            <li><a href="galerie.html">Galerie</a></li>
+            <li id="evenement"><a href="evenement.html">Évènements</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <a class="barre" href='boutique.html'>Boutique</a>
+    <a class="barre" href='inscription.html'>S'inscrire</a>
+    <a class="barre" href='contact.html'>Nous contacter</a>
+    <nav>
+      <input placeholder="Rechercher...">
+      <button type ='button'>C</button>
+    </nav>
+  </div>
+  </header>
+
+  <h1>Aidez-nous</h1>
+<p class="text0">Bonjour ! Nous sommes Antoine et Ines, animateurs bénévoles du club photo "Focus" à Ermont 95120. <br/>Nous demandons votre aide afin de financer nos futurs projets !</p>
+<div class="carte">
+<iframe width="660" height="440" src="https://maps.google.com/maps?width=660&amp;height=440&amp;hl=en&amp;q=Ermont%2095+(Ermont)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+  </div>
+  <div class="flex">
+  <p class="text"> Nous avons besoin de votre soutient afin d'améliorer notre budget pour le prochain raid. Avec l'argent des dons, nous les utiliserons afin d'aider nos voyageurs à minimiser leurs budgets dans les dépenses de transports, notamment l'essence, d'habitation, de nourritures et d'organisation.</p><p class="text"> Ainsi, nous profiterons pleinement du voyage et nous vous proposerons de belle vue des différents pays que nous allions voyager. <br/>L'association Focus vous remercie énormément !<br/>
+  </p></div>
+
+
+  <p class="text2">Nous avons déjà   récolté 500 € sur 5 000 € !</p>
+  <div class="avance">
+  <label for="avance">Avancement du projet</label>
+<progress id="avance" max="100" value="10">10%</progress>
+</div>
+</p>
+
+<div class="flex">
+<form method="post" action="">
+  <p><div class="cb">
+    <label for="don">Faire un don :</label>
+      <input type="text" id="don" name="don" maxlength="8"/><span>€</span><br/>
+      <label for="type_carte">Type de carte bancaire</label></div>
+      <ul>
+            <li>
+              <input id=visa name=type_de_carte type=radio>
+              <img src="secure.jpg" alt="cadenas_secure"/><label for=visa>VISA</label>
+            </li>
+            <li>
+              <input id=mastercard name=type_de_carte type=radio>
+              <img src="secure.jpg" alt="cadenas_secure"/> <label for=mastercard>Mastercard</label>
+            </li>
+          </ul>
+      <ul>
+        <li>
+        <label for=numero_de_carte>N° de carte&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input id=numero_de_carte name=numero_de_carte type=text maxlength="16" required><br/>
+        </li>
+      <li>
+        <label for=securite>Code sécurité&nbsp;&nbsp;&nbsp;</label>
+        <input id=securite name=securite type=text maxlength="3"required><br/>
+      </li>
+      <li>
+        <label for=nom_porteur>Nom du porteur</label>
+        <input id=nom_porteur name=nom_porteur type=text placeholder="" required>
+      </li>
+    </ul>
+      <input type="submit" id="valid" value="Valider"/>
+    </p>
+  </form>
+<img src="danemarkdon.jpg" alt="danemark"/> 
+</div>
+<div class="espace"></div>
+<p class="text0">Allez voir <a href="boutique.html">notre boutique !</a></p>
+
+
+    <footer>
+      <div class="foot">
+      <img src="focus_logov2.png" alt="focus_logo"/>
+      <div class="rubrique">FOCUS
+        <ul>
+        <li><a href="raid.html">Live Raid</a></li>
+        <li><a href="boutique.html">Boutique</a></li>
+        <li>Forum</li>
+        <li></li>
+      </ul>
+    </div>
+      <div class="rubrique">INFOS
+      <ul>
+        <li><a href="contact.html">Contactez-nous</a></li>
+        <li>Politique de Confidentialité</li>
+        <li>Mentions légales</li>
+        <li>CGV</li>
+      </ul>
+      </div>
+    </div>
+      <hr/>
+      <p>Copyright © 2020 - Tous droits réservés</p>
+
+    </footer>
+</body>
+</html>
+
+<!-- <body>
+     <header>...</header> (1)
+     <main>...</main>     (2)
+     <div>...</div>       (3)
+     <footer>...</footer> (4)
+</body> -->

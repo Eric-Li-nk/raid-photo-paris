@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Contact - Raid Photo Paris-Cap Nord 2021</title>
+  <meta charset="utf-8" />
+  <link href="contactv2.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+  <header>
+  <div class="fixe">	<!-- background image // https://notepad.pw/parisnordcap 123456-->
+    <a class="logo" href="accueil.html"><img src="focus_logo_smallv2.png" alt="logo_focus"/></a>
+    <a class="barre" href='accueil.html'>Accueil</a>
+    <div id="menu_menu">
+      <ul>
+        <li>
+          <a class="barre" id="raid" href='raid.html'>Live raid</a>
+          <ul id="padding_menu">
+            <li><a href="galerie.html">Galerie</a></li>
+            <li id="evenement"><a href="evenement.html">Évènements</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <a class="barre" href='boutique.html'>Boutique</a>
+    <a class="barre" href='inscription.html'>Inscription</a>
+    <a class="barre" href='contact.html'>Nous contacter</a>
+     <a class="panier" href="boutique.html"> <img id="panier" src="panier.png" alt="panier" /></a>
+    <nav>
+      <input placeholder="Rechercher...">
+      <button type ='button'>C</button>
+    </nav>
+  </div>
+  </header>
+  
+
+    <div class="light" id="avant-titre"></div>
+    <p class="avant-titre" >UNE DEMANDE ?</p>
+    <h1>Contactez-nous</h1>
+    <p id="titre">Contactez notre service client pour toute information</p>
+    <div id="contactez-nous">
+      <form method="post" action="./traitement.php">
+        <div class="wrapper">
+          <div class="parent">
+        <p>    
+        	<label for="nom" class="child">Nom</label>
+            <div class="style-form child">
+            	<input type="text" name="nom" id="nom" class="child" placeholder="Nom" />
+            </div>
+
+        </p>
+        <p>
+
+          <label for="tel" class="child">Téléphone</label>
+            <div class="style-form child end-child">
+              <input type="tel" name="tel" id="tel" class="child" placeholder="Téléphone"/>
+            </div>
+        </p>
+
+        </div>
+      </div>
+        <p>
+    	     <label for="mail">Email <em>*</em></label>
+            <div class="style-form">
+    	       <input type="email" name="mail" id="mail" placeholder="Email" required/>
+            </div>
+        </p>
+    
+        <p>
+    	     <label for="message">Message <em>*</em></label>
+            <div class="style-form">
+    	       <textarea type="text" name="message" id="message" rows=8 placeholder="Laissez votre commentaire ici" required ></textarea>
+            </div>
+        </p>
+
+        <p>
+        <div id="checkbox">
+    	   <input type="checkbox" name="choix" id="choix" required/>
+	         <label for="choix"> J'accepte de transmettre mes informations afin d'améliorer Focus
+          </label>
+        </div>
+
+        <input id="envoyer" type="submit" value="Envoyer" id="envoyer"/>
+	       </p>
+      </form>
+        <div id="photo"><a href="inscription.html"><div class="image"><span>Tentez l'aventure</span></div></a>
+        </div>
+    </div>
+
+    <div class="light"></div>
+    <div class="sponsor light">
+        <p class="avant-titre" id="grossir"> ILS NOUS SOUTIENNENT !</p>
+        <div class="light"></div>
+
+        <p>
+        <a href="https://pariscapnord.fr"><img src="PCN_logo.png" alt="pariscapnord"/></a>
+        <a href="https://www.nationalgeographic.fr/"><img src="National_Geographic_Partners_logo.png" alt="nationalgeographic"/></a>
+        <a href="https://www.toyota.fr/"><img class="toyota" src="toyota_logo.png" alt="toyota"/></a>
+        <a href="#avant-titre"><img src="devenir_sponsor.png" alt="devenir_sponsor" /></a>
+      </p>
+      <div class="light"></div>
+    </div>
+
+    <footer>
+      <div class="foot">
+      <img src="focus_logov2.png" alt="focus_logo"/>
+      <div class="rubrique">FOCUS
+        <ul>
+        <li><a href="raid.html">Live raid</a></li>
+        <li><a href="boutique.html">Boutique</a></li>
+        <li>Forum</li>
+        <li></li>
+      </ul>
+    </div>
+      <div class="rubrique">INFOS
+      <ul>
+        <li><a href="contact.html">Contactez-nous</a></li>
+        <li>Politique de Confidentialité</li>
+        <li>Mentions légales</li>
+        <li>CGV</li>
+      </ul>
+      </div>
+    </div>
+      <hr/>
+      <p>Copyright © 2020 - Tous droits réservés</p>
+
+    </footer>
+</body>
+</html>
+
+<!-- <body>
+     <header>...</header> (1)
+     <main>...</main>     (2)
+     <div>...</div>       (3)
+     <footer>...</footer> (4)
+</body> -->

@@ -1,0 +1,400 @@
+body
+{
+	margin: 0;
+	font-family: Arial;
+}
+header
+{
+	background-color: gray;
+	height: 283px;
+	padding: 0;
+}
+nav
+{
+	float: right;
+	margin-top: 15px;
+}
+nav input{
+	border-radius: 4px 0px 0px 4px;
+}
+nav button{
+	border-radius:0px 4px 4px 0px;
+}
+#menu_menu{
+	margin:0;
+	padding:0;
+}
+#menu_menu ul{
+	margin:0;
+}
+#menu_menu li{
+	list-style: none;
+	float:left;
+	position:relative;
+}
+#menu_menu ul li a{
+	color:white;
+	text-decoration: none;
+	display:block;
+	width:100px;
+	height:30px;
+	font-size:1.5em;
+}
+#menu_menu ul ul{
+	position:absolute;
+	display:none;
+	top:50px;
+	background-color: #ADD8E6;
+}
+#menu_menu ul li:hover ul {
+	display:block;
+}
+#menu_menu #padding_menu {
+	padding-left:0;
+}
+#menu_menu #padding_menu li {
+	padding:1em;
+	margin-top:1em;
+}
+#menu_menu #padding_menu #evenement{
+	padding-top:0;
+}
+#menu_menu a:hover{
+	color:black;
+}
+
+.fixe a:hover{
+	color:black;
+}
+
+#panier{
+	float:right;
+	width:30px;
+	height:30px;
+	margin-top:12px;
+	margin-right:15px;
+}
+.fixe img{
+	padding-left:1em;
+	height:56px;
+	width: 58px;
+
+}
+.fixe .logo{
+	float: left;
+	padding-right:2em;
+	padding-left:2em;
+}
+.barre
+{
+	padding: 16px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	float: left;
+	font-family: Arial;
+	margin-right:1em;
+	padding:auto
+}
+div.fixe {
+	position:fixed;
+	top:0;
+	left:0;
+	background-color: #ADD8E6; /*CHANGER COULEUR*/
+	width:100%;
+
+}
+input
+{
+	font-size: 1em;
+	border: none;
+	padding: 4px;
+	width: 190px;
+	margin:auto;
+}
+button
+{
+	float: right;
+	padding: 8px;
+	background-color: black;
+	margin-right: 10px;
+	color: white;
+	border:none;
+	font-family: Arial;
+	height:27px;
+}
+img
+{
+	height: auto;
+	width: 100%;
+	margin:0;
+}
+header
+{
+	background-image: url("https://www.vacances-ulvf.com/images/Header/Header-2019/Header-Ete-2019-Montagne.jpg");
+	background-size: cover;
+	height: 224px;
+	width: 100%;
+	margin: 0;
+	margin-top:3.7em;
+}
+
+
+
+
+
+
+
+/* Zone de contact */
+.light{
+	margin:auto;
+	padding-top:5em;
+}
+.avant-titre{
+	text-align:center;
+	font-family: Montserrat;
+	letter-spacing: 1px;
+	color:#707070;
+	font-size:17px;
+	padding-left:0;
+	margin-bottom: 5px;
+}
+h1 {
+	margin-top:0;
+	margin-bottom:0;
+	text-align:center;
+	font-size:40px;
+	color:#212227;
+	font-family: Montserrat;
+}
+#titre {
+	text-align:center;
+	margin-bottom:60px;
+	font-family: Montserrat;
+	letter-spacing: 1px;
+	color:#707070;
+	font-size:17px;
+}
+				/*flexbox*/
+.wrapper{
+	width:100%;
+}
+
+.parent {
+  	display: flex;
+  	flex-wrap: wrap;
+}
+
+.child {
+  flex: 1 0 20%; /* explanation below */
+  margin-left:0;
+  margin-right:1em;
+  height:50px;
+  width:100%;
+}
+.end-child {
+	margin-right:0;
+}
+				/*flexbox*/
+input [id="nom"],input [id="tel"]{
+	width: 100%;
+}
+
+input[id="mail"]{
+	width: 100%;
+}
+
+form {
+	font-weight:bold;
+	margin-left:7em;
+	margin-right:5em;
+	padding:auto;
+	width:60%;
+}
+
+#nom,#tel,#mail,#message {
+
+	box-sizing:border-box;
+}
+
+#choix {
+	width:2em;
+}
+#checkbox{
+	max-width: 100%;
+	width:100%;
+}
+
+
+form .style-form input{
+	border:2px solid #707070;
+	height:50px;
+	padding:5px 12px 5px;
+
+}
+
+form label {
+	color:#7C8193;
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-family: Montserrat;
+}
+textarea{
+	padding:7px 12px 5px;
+	margin-bottom:0;
+	border:2px solid #707070;
+	width: 100%;
+}
+label em {
+	color:#f1152f;
+	font-weight:500;
+	font-style:normal;
+	margin-left:2px;
+}
+
+
+#checkbox {
+	width:50%;
+	display:inline-block;
+	margin:0 1em 1em;
+	font-size:12px;
+}
+input[type="submit"] {
+	font-weight:bold;
+	padding:10px 12px 10px;
+	display:inline-block;
+	min-width: 0px;
+	margin-left:3em;
+
+/*	display:inline;*/
+}
+a .image{
+	background-image: url("https://www.visitportugal.com/sites/www.visitportugal.com/files/mediateca/23_660x371.jpg");
+	background-position: 10%;
+	width: 250px;
+	height:100px;
+	color:white;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: Montserrat;
+	padding:9em 0.3em 0em;
+	border:1px solid black;
+	transition-property: background-position;
+}
+a .image:hover{
+	background-image: url("https://www.visitportugal.com/sites/www.visitportugal.com/files/mediateca/23_660x371.jpg");
+	background-position: 68%;
+
+}
+#photo a{
+	text-decoration: none;
+}
+
+
+#contactez-nous {
+	display:flex;
+	flex-wrap:wrap;
+	margin:auto;
+}
+div[id="titre"] {
+	width:auto;
+	height:auto;
+	padding:auto;
+	margin:auto;
+}
+form p {
+	box-sizing: border-box;
+}
+
+.sponsor{
+	background-color: #F0F0F0;
+
+}
+.sponsor img {
+	height:100px;
+	width:210px;
+	border:2px solid #505050;
+	border-radius: 5%;
+	background-color: white;
+	background-size: cover;
+	padding:1em;
+	margin-left:1.4em;
+
+}
+.sponsor p{
+/*	padding-left:3em;*/
+	padding:auto;
+}
+
+.sponsor p a {
+	padding-left:2em;
+}
+
+#grossir {
+	font-size:25px;
+	color:#212227;
+}
+img[alt="devenir_sponsor"]{
+	background-color:#212227;
+}
+#envoyer{
+	background-color:#ADD8E6;
+	border-radius : 4px 4px 4px 4px;
+}
+
+
+
+
+
+footer {
+	background-color: #303030;
+	color:#7f7f7f;
+	margin-top:0;
+
+}
+footer div {
+	font-size: 18px;
+	padding-top:4em;
+	font-family: Montserrat;
+	color:white;
+}
+footer .rubrique {
+	padding-top:4em;
+	padding-right:8em;
+}
+footer ul {
+	list-style: none;
+	margin-left:0;
+	padding-left: 0;
+}
+footer li {
+	font-size:17px;
+	padding:1px;
+	padding-bottom: 2px;
+	color:#7f7f7f;
+}
+footer img{
+	height:250px;
+	width: 250px;
+	padding:2em 5em 0em;
+}
+footer a {
+	text-decoration: none;
+	color:#7f7f7f;
+	font-size: 17px;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer p{
+	margin:auto;
+	text-align:center;
+	font-size: 15px;
+	height:20px;
+}
+.foot{
+	display:flex;
+	padding-top:0;
+}

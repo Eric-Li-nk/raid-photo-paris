@@ -1,0 +1,475 @@
+body
+{
+    margin: 0;
+    font-family: Arial;
+}
+header
+{
+    background-color: gray;
+    height: 283px;
+    padding: 0;
+}
+nav
+{
+    float: right;
+    margin-top: 15px;
+}
+nav input{
+    border-radius: 4px 0px 0px 4px;
+    height:19px;
+    width:170px;
+}
+nav button{
+    border-radius:0px 4px 4px 0px;
+}
+#menu_menu{
+    margin:0;
+    padding:0;
+}
+#menu_menu ul{
+    margin:0;
+}
+#menu_menu li{
+    list-style: none;
+    float:left;
+    position:relative;
+}
+#menu_menu ul li a{
+    color:white;
+    text-decoration: none;
+    display:block;
+    width:100px;
+    height:30px;
+    font-size:1.5em;
+}
+#menu_menu ul ul{
+    position:absolute;
+    display:none;
+    top:50px;
+    background-color: #ADD8E6;
+}
+#menu_menu ul li:hover ul {
+    display:block;
+}
+#menu_menu #padding_menu {
+    padding-left:0;
+}
+#menu_menu #padding_menu li {
+    padding:1em;
+    margin-top:1em;
+}
+#menu_menu #padding_menu #evenement{
+    padding-top:0;
+}
+#menu_menu a:hover{
+    color:black;
+}
+
+.fixe a:hover{
+    color:black;
+}
+
+#panier{
+    float:right;
+    width:30px;
+    height:30px;
+    margin-top:12px;
+    margin-right:15px;
+}
+.fixe img{
+	padding-left:1em;
+	height:56px;
+	width: 58px;
+
+}
+.fixe .logo{
+	float: left;
+	padding-right:2em;
+	padding-left:2em;
+}
+.barre
+{
+	padding: 16px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	float: left;
+	font-family: Arial;
+	margin-right:1em;
+	padding:auto
+}
+div.fixe {
+	position:fixed;
+	top:0;
+	left:0;
+	background-color: #ADD8E6; /*CHANGER COULEUR*/
+	width:100%;
+
+}
+input
+{
+	font-size: 1em;
+	border: none;
+	padding: 4px;
+	width: 190px;
+	margin:auto;
+}
+button
+{
+	float: right;
+	padding: 8px;
+	background-color: black;
+	margin-right: 10px;
+	color: white;
+	border:none;
+	font-family: Arial;
+	height:27px;
+}
+img
+{
+	height: auto;
+	width: 100%;
+	margin:0;
+}
+header
+{
+	background-image: url("https://www.vacances-ulvf.com/images/Header/Header-2019/Header-Ete-2019-Montagne.jpg");
+	background-size: cover;
+	height: 224px;
+	width: 100%;
+	margin: 0;
+	margin-top:3.7em;
+}
+.container__siteConnect {
+    display: table-cell;
+    width: 100%;
+    vertical-align: top;
+}
+.container__siteConnect {
+    display: block;
+    width: 50%;
+    padding: 5em;
+    margin: 0 auto;
+    margin-top: 4em;
+    margin-bottom: 6em;
+    border: solid black;
+    border-radius: 4px 4px 4px 4px;
+}
+.signup-form__title {
+    margin-bottom: 30px;
+    color: #232323;
+    font-size: 20px;
+    font-weight: 700;
+}
+h2 {
+    margin: 0 0 .75em;
+    font-family: Roboto,Lato,sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.signin-form__radio {
+    margin-bottom: 20px;
+}
+.radio-input__field {
+    position: relative;
+}
+.radio {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.radio__input {
+    display: none;
+}
+[type=radio] {
+    display: inline;
+    margin-right: .375em;
+    box-sizing: border-box;
+    padding: 0;
+}
+.radio__label {
+    padding-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    color: #232323;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+}
+.signin-form__field {
+    position: relative;
+    margin-bottom: 40px;
+}
+.input-material {
+    position: relative;
+}
+.input {
+    margin-bottom: 20px;
+}
+.input .input__container {
+    position: relative;
+}
+.input-material__field {
+    position: relative;
+    z-index: 1;
+    height: auto;
+    padding: 7px 15px 2px 0;
+    border: 0;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: transparent;
+    border-radius: 0;
+    color: #232323;
+    font-size: 15px;
+    line-height: 1.5;
+    box-shadow: inset 0 0 0 30px #fff;
+}
+
+[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: .5em;
+    margin-bottom: .75em;
+    margin-right: 0;
+    transition: border-color 375ms ease;
+}
+input {
+
+	font-family: Roboto,Lato,sans-serif;
+	overflow: visible;
+	margin: 0;
+	-webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    -webkit-appearance: textfield;
+    -webkite-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+label {
+    display: block;
+    margin-bottom: .375em;
+    cursor: default;
+}
+.signin-form__field--password {
+    margin-bottom: 20px;
+}
+.input__container input[name=password] {
+    border: 0;
+    border-bottom: 1px solid #d8d8d8;
+}
+.password-checker__wrapper {
+    margin-bottom: 14px;
+}
+.password-checker__title {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.password-checker__rule {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #989898;
+    font-size: 11px;
+    line-height: 1.8;
+}
+li {
+	text-align: -webkit-match-parent;
+}
+.password-checker__rule:before {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #989898;
+    margin-right: 7px;
+    border-radius: 50%;
+    content: "";
+}
+.button__signup:disabled {
+    background-color: #d8d8d8;
+    opacity: 1;
+}
+.button_signup {
+	display: block;
+    width: 100%;
+    height: auto;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    background: #232323;
+    outline: none;
+}
+.button {
+	border: 0;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	color: #fff;
+	font-family: Roboto,Lato,sans-serif;
+    font-size: 13px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 375ms;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+[type=submit], button {
+    -webkit-appearance: button;
+}
+button {
+	text-transform: none;
+	overflow: visible;
+	margin: 0;
+	-webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+    font: 400 13.3333px Arial;
+}
+h1 {
+	text-align: center;
+	color: #DC143C;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    line-height: 1.5em;
+}
+
+.explain_text1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: justify;
+    margin-top: -15px;
+}
+.explain_text2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: justify;
+}
+.explain_text3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: justify;
+    margin-top: -15px;
+}
+
+.attract {
+    text-align: center;
+    font-size: 125%;
+    margin-top:1em;
+}
+.button_button__signup{
+    background-color:#ADD8E6;
+    border-radius : 4px 4px 4px 4px;
+}
+a{
+    text-decoration: none;
+}
+a[href="aideznous.html"]{
+    color:#DC143C;
+    font-size:20px;
+}
+#dark{
+    color:black;
+}
+/*FOOTER*/
+footer {
+	background-color: #303030;
+	color:#7f7f7f;
+	margin-top:0;
+
+}
+footer div {
+	font-size: 18px;
+	padding-top:4em;
+	font-family: Montserrat;
+	color:white;
+}
+footer .rubrique {
+	padding-top:4em;
+	padding-right:8em;
+}
+footer ul {
+	list-style: none;
+	margin-left:0;
+	padding-left: 0;
+}
+footer li {
+	font-size:17px;
+	padding:1px;
+	padding-bottom: 2px;
+	color:#7f7f7f;
+}
+footer img{
+	height:250px;
+	width: 250px;
+	padding:2em 5em 0em;
+}
+footer a {
+	text-decoration: none;
+	color:#7f7f7f;
+	font-size: 17px;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer p{
+	margin:auto;
+	text-align:center;
+	font-size: 15px;
+	height:20px;
+}
+.foot{
+	display:flex;
+	padding-top:0;
+}

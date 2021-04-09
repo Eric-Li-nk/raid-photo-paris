@@ -1,0 +1,317 @@
+body
+{
+	margin: 0;
+	font-family: Arial;
+}
+header
+{
+	background-color: gray;
+	height: 283px;
+	padding: 0;
+}
+nav
+{
+	float: right;
+	margin-top: 15px;
+}
+nav input{
+	border-radius: 4px 0px 0px 4px;
+}
+nav button{
+	border-radius:0px 4px 4px 0px;
+}
+
+#menu_menu{
+	margin:0;
+	padding:0;
+}
+#menu_menu ul{
+	margin:0;
+}
+#menu_menu li{
+	list-style: none;
+	float:left;
+	position:relative;
+}
+#menu_menu ul li a{
+	color:white;
+	text-decoration: none;
+	display:block;
+	width:100px;
+	height:30px;
+	font-size:1.5em;
+}
+#menu_menu ul ul{
+	position:absolute;
+	display:none;
+	top:50px;
+	background-color: #ADD8E6;
+}
+#menu_menu ul li:hover ul {
+	display:block;
+}
+#menu_menu #padding_menu {
+	padding-left:0;
+}
+#menu_menu #padding_menu li {
+	padding:1em;
+	margin-top:1em;
+}
+#menu_menu #padding_menu #evenement{
+	padding-top:0;
+}
+#menu_menu a:hover{
+	color:black;
+}
+
+.fixe a:hover{
+	color:black;
+}
+
+#panier{
+	float:right;
+	width:30px;
+	height:30px;
+	margin-top:12px;
+	margin-right:15px;
+}
+.fixe img{
+	padding-left:1em;
+	height:56px;
+	width: 58px;
+
+}
+.fixe .logo{
+	float: left;
+	padding-right:2em;
+	padding-left:2em;
+}
+.barre
+{
+	padding: 16px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	float: left;
+	font-family: Arial;
+	margin-right:1em;
+	padding:auto
+}
+div.fixe {
+	position:fixed;
+	top:0;
+	left:0;
+	background-color: #ADD8E6; /*CHANGER COULEUR*/
+	width:100%;
+
+}
+input
+{
+	font-size: 1em;
+	border: none;
+	padding: 4px;
+	width: 190px;
+	margin:auto;
+}
+button
+{
+	float: right;
+	padding: 8px;
+	background-color: black;
+	margin-right: 10px;
+	color: white;
+	border:none;
+	font-family: Arial;
+	height:27px;
+}
+img
+{
+	height: auto;
+	width: 100%;
+	margin:0;
+}
+header
+{
+	background-image: url("https://www.vacances-ulvf.com/images/Header/Header-2019/Header-Ete-2019-Montagne.jpg");
+	background-size: cover;
+	height: 224px;
+	width: 100%;
+	margin: 0;
+	margin-top:3.7em;
+}
+
+/*Aidez nous*/
+.espace{
+	height:2em;
+}
+h1{
+	text-align: center;
+	padding:1em 0em 1em;
+}
+.carte {
+	margin:auto;
+	width:50%;
+	padding:1em 0em 1em;
+}
+.text0{
+	text-align: center;
+	margin-bottom: 1.5em;
+	line-height: 1.5em;
+}
+.flex{
+	display:flex;
+	display:wrap;
+	justify-content: center;
+	margin-top:1em;
+}
+p.text{
+	line-height: 1.5em;
+	width:30em;
+	padding-left:4em;
+}
+.text2{
+	text-align: center;
+	font-size:30px;
+}
+div.avance{
+	margin:auto;
+	width:50%;
+	font-size: 20px;
+}
+div img{
+	width:400px;
+	margin:auto;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  border:1px solid black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress[value]::-moz-progress-bar { 
+  background-color:#eee;
+  border-radius: 2px; 
+
+}
+progress[value]::-webkit-progress-value {
+  background-color:gray;
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]  {
+  /* Reset the default appearance */
+  background-color: #eee;
+  border: none;
+  /* Dimensions */
+  width: 250px;
+  height: 20px;
+  /* For IE10 */
+  color: #128401; 
+}
+
+form {
+	margin:auto;
+}
+form input {
+	border:1px solid black;
+	margin:0.4em;
+}
+input#don{
+	width:5em;
+}
+form ul{
+	list-style: none;
+}
+
+form li{
+	display:inline;
+	padding-left:1em;
+}
+div.cb{
+	padding-left:3.5em;
+	line-height: 2em;
+}
+form #visa {
+	width:12px;
+}
+form #mastercard {
+	width:12px;
+}
+input#securite{
+	width:2em;
+}
+input#numero_de_carte{
+	width:9em;
+}
+form img{
+	width:16px;
+	height:16px;
+	padding-right:4px;
+}
+input#valid{
+	width:10em;
+	margin-left:17.4em;
+	border-radius: 5px;
+	background-color: #ADD8E6;
+}
+p a{
+	text-decoration: none;
+}
+
+/*FOOTER*/
+
+footer {
+	background-color: #303030;
+	color:#7f7f7f;
+	margin-top:0;
+
+}
+footer div {
+	font-size: 18px;
+	padding-top:4em;
+	font-family: Montserrat;
+	color:white;
+}
+footer .rubrique {
+	padding-top:4em;
+	padding-right:8em;
+}
+footer ul {
+	list-style: none;
+	margin-left:0;
+	padding-left: 0;
+}
+footer li {
+	font-size:17px;
+	padding:1px;
+	padding-bottom: 2px;
+	color:#7f7f7f;
+}
+footer img{
+	height:250px;
+	width: 250px;
+	padding:2em 5em 0em;
+}
+footer a {
+	text-decoration: none;
+	color:#7f7f7f;
+	font-size: 17px;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer p{
+	margin:auto;
+	text-align:center;
+	font-size: 15px;
+	height:20px;
+}
+.foot{
+	display:flex;
+	padding-top:0;
+}

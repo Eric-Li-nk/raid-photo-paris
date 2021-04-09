@@ -1,0 +1,244 @@
+body
+{
+	margin: 0;
+	font-family: Arial;
+}
+header
+{
+	background-color: gray;
+	height: 283px;
+	padding: 0;
+}
+nav
+{
+	float: right;
+	margin-top: 15px;
+}
+nav input{
+	border-radius: 4px 0px 0px 4px;
+}
+nav button{
+	border-radius:0px 4px 4px 0px;
+}
+#menu_menu{
+	margin:0;
+	padding:0;
+}
+#menu_menu ul{
+	margin:0;
+}
+#menu_menu li{
+	list-style: none;
+	float:left;
+	position:relative;
+}
+#menu_menu ul li a{
+	color:white;
+	text-decoration: none;
+	display:block;
+	width:100px;
+	height:30px;
+	font-size:1.5em;
+}
+#menu_menu ul ul{
+	position:absolute;
+	display:none;
+	top:50px;
+	background-color: #ADD8E6;
+}
+#menu_menu ul li:hover ul {
+	display:block;
+}
+#menu_menu #padding_menu {
+	padding-left:0;
+}
+#menu_menu #padding_menu li {
+	padding:1em;
+	margin-top:1em;
+}
+#menu_menu #padding_menu #evenement{
+	padding-top:0;
+}
+#menu_menu a:hover{
+	color:black;
+}
+
+.fixe a:hover{
+	color:black;
+}
+
+#panier{
+	float:right;
+	width:30px;
+	height:30px;
+	margin-top:12px;
+	margin-right:15px;
+}
+.fixe img{
+	padding-left:1em;
+	height:56px;
+	width: 58px;
+
+}
+.fixe .logo{
+	float: left;
+	padding-right:2em;
+	padding-left:2em;
+}
+.barre
+{
+	padding: 16px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	float: left;
+	font-family: Arial;
+	margin-right:1em;
+	padding:auto
+}
+div.fixe {
+	position:fixed;
+	top:0;
+	left:0;
+	background-color: #ADD8E6; /*CHANGER COULEUR*/
+	width:100%;
+
+}
+input
+{
+	font-size: 1em;
+	border: none;
+	padding: 4px;
+	width: 190px;
+	margin:auto;
+}
+button
+{
+	float: right;
+	padding: 8px;
+	background-color: black;
+	margin-right: 10px;
+	color: white;
+	border:none;
+	font-family: Arial;
+	height:27px;
+}
+img
+{
+	height: auto;
+	width: 100%;
+	margin:0;
+}
+header
+{
+	background-image: url("https://www.vacances-ulvf.com/images/Header/Header-2019/Header-Ete-2019-Montagne.jpg");
+	background-size: cover;
+	height: 224px;
+	width: 100%;
+	margin: 0;
+	margin-top:3.7em;
+}
+
+
+
+
+
+
+
+/* Zone de produit */
+div.wrapper{
+	display:flex;
+}
+div.produit {
+	width:500px;
+	padding:2em 2em 2em;
+	padding-left:7em;
+
+}
+div.produit img {
+		border:1px solid black;
+		border-radius: 4px 4px 4px 4px;
+}
+div.description {
+	padding-top:5em;
+	width:500px;
+	font-family:Arial;
+}
+form{
+	padding-top:1em;
+}
+form .nb{
+	border:1px solid gray;
+	width:100px;
+	border-radius: 4px 4px 4px 4px;
+}
+div#ajout{
+	margin-bottom: 20px;
+}
+img#image{
+	height: 40px;
+	width:400px;
+}
+.button{
+	margin-left:250px;
+	background-color:#ADD8E6;
+	border-radius : 4px 4px 4px 4px;
+}
+#liv{
+	width:150px;
+}
+
+
+/*FOOTER*/
+footer {
+	background-color: #303030;
+	color:#7f7f7f;
+	margin-top:0;
+
+}
+footer div {
+	font-size: 18px;
+	padding-top:4em;
+	font-family: Montserrat;
+	color:white;
+}
+footer .rubrique {
+	padding-top:4em;
+	padding-right:8em;
+}
+footer ul {
+	list-style: none;
+	margin-left:0;
+	padding-left: 0;
+}
+footer li {
+	font-size:17px;
+	padding:1px;
+	padding-bottom: 2px;
+	color:#7f7f7f;
+}
+footer img{
+	height:250px;
+	width: 250px;
+	padding:2em 5em 0em;
+}
+footer a {
+	text-decoration: none;
+	color:#7f7f7f;
+	font-size: 17px;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer p{
+	margin:auto;
+	text-align:center;
+	font-size: 15px;
+	height:20px;
+}
+.foot{
+	display:flex;
+	padding-top:0;
+}
